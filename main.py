@@ -21,7 +21,7 @@ number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 print('\nthis is the smallest number :', min(number))
 print('this is the biggest number :', max(number))
-print('\nyou can do this too :', max(number) != 10)
+print('\n!= means it isnt but == means it is :', max(number) != 10)
 print('and also this :', min(number) > 5)
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 18, 19 ,16]
@@ -46,7 +46,49 @@ the_new_list = set(new_list)
 print('\nthis will deduplicates the numbers :')
 print(the_new_list)
 
+# here is an example for functions . the return is just like the print
 
+<<<<<<< HEAD
+=======
+def asghar(x):
+    return 2 * x
+
+a = asghar(3)
+
+print('\nthis is the output :', a)
+
+# more examples
+
+def function1(x, z):
+    return x + z
+
+b = function1(2, 5)
+
+print('\nthis is the output fnc1 :', b)
+
+def function2(some_arg):
+    print('\n', some_arg)
+    print('hoy haa amrica pedasag')
+
+function2(4)
+
+# BMI calculator
+
+name1 = "asghar"
+height = 1.8
+weight = 60
+
+name2 = "asghar's brother"
+height2 = 2
+weight  = 72
+
+name3 = "asghar's sister"
+height3 = 1.7
+weight3 = 69
+
+def bmi_
+
+>>>>>>> 6b7b6495b19bc68774623dc4acc7d0d9f9b2b953
 
 
 
