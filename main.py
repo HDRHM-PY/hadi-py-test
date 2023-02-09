@@ -48,8 +48,6 @@ print(the_new_list)
 
 # here is an example for functions . the return is just like the print
 
-<<<<<<< HEAD
-=======
 def asghar(x):
     return 2 * x
 
@@ -75,20 +73,39 @@ function2(4)
 # BMI calculator
 
 name1 = "asghar"
-height = 1.8
-weight = 60
+height_m1 = 1.8
+weight_kg1 = 60
 
 name2 = "asghar's brother"
-height2 = 2
-weight  = 72
+height_m2 = 2
+weight_kg2  = 72
 
 name3 = "asghar's sister"
-height3 = 1.7
-weight3 = 69
+height_m3 = 1.7
+weight_kg3 = 120
 
-def bmi_
+def bmi_calculation(name, height_m, weight_kg):
+    bmi = weight_kg / (height_m ** 2)
+    print("\nbmi: ")
+    print(bmi)
+    if bmi < 25:
+        return name + " is not over weight"
+    else :
+        return name + " is over weight"
 
->>>>>>> 6b7b6495b19bc68774623dc4acc7d0d9f9b2b953
+result1 = bmi_calculation(name1, height_m1, weight_kg1)
+result2 = bmi_calculation(name2, height_m2, weight_kg2)
+result3 = bmi_calculation(name3, height_m3, weight_kg3)
+
+print("\n")
+print(result1)
+print(result2)
+print(result3)
+
+"""
+lets find a soloution for this
+
+"""
 
 
 
