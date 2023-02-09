@@ -47,7 +47,7 @@ print('\nthis will deduplicates the numbers :')
 print(the_new_list)
 
 
-
+print('hello world again XD')
 
 
 
